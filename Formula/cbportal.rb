@@ -1,8 +1,8 @@
 class Cbportal < Formula
   include Language::Python::Virtualenv
 
-  url "https://github.com/mcrepeau/cbportal/archive/v1.0.0.tar.gz"
-  sha256 "add the sha256 of your tarball here"
+  url "https://github.com/mcrepeau/cbportal/archive/refs/tags/v1.0.0.tar.gz"
+  sha256 "3e6e4e0b5a39a8dc3105be56cc92af0ee6f59a8012004c20847ddaecb422228f"
 
   depends_on "python@3.9"
 
