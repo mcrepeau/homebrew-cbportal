@@ -3,7 +3,7 @@ class Cbportal < Formula
 
   desc "Clipboard Portal"
   homepage "https://github.com/mcrepeau/cbportal"
-  url "https://github.com/mcrepeau/cbportal/archive/refs/tags/v1.0.0.tar.gz"
+  url "https://github.com/mcrepeau/cbportal/archive/refs/tags/v1.0.1.tar.gz"
   sha256 "f8f512141f4b6fa96aa6fca9dd7f694c4b5adc950e718acfef4828a5b2d576fc"
 
   depends_on "python@3.12"
