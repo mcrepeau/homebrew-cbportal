@@ -4,9 +4,9 @@ class Cbportal < Formula
   desc "Clipboard Portal"
   homepage "https://github.com/mcrepeau/cbportal"
   url "https://github.com/mcrepeau/cbportal/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "3e6e4e0b5a39a8dc3105be56cc92af0ee6f59a8012004c20847ddaecb422228f"
+  sha256 "f8f512141f4b6fa96aa6fca9dd7f694c4b5adc950e718acfef4828a5b2d576fc"
 
-  depends_on "python@3.9"
+  depends_on "python@3.12"
 
   resource "cffi" do
     url "https://files.pythonhosted.org/packages/68/ce/95b0bae7968c65473e1298efb042e10cafc7bafc14d9e4f154008241c91d/cffi-1.16.0.tar.gz"
