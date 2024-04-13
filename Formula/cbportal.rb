@@ -7,6 +7,8 @@ class Cbportal < Formula
   sha256 "e8136acdb55bdbea753b033a65dbb886936bb1aaaac92b5202317ba3c4d50814"
 
   depends_on "python@3.12"
+  depends_on "rust"
+  depends_on "libjpeg"
 
   resource "cffi" do
     url "https://files.pythonhosted.org/packages/68/ce/95b0bae7968c65473e1298efb042e10cafc7bafc14d9e4f154008241c91d/cffi-1.16.0.tar.gz"
@@ -44,7 +46,7 @@ class Cbportal < Formula
   end
 
   def install
-    virtualenv_install_with_resources
+    virtualenv_install_with_resources    
   end
 
   test do
