@@ -3,8 +3,8 @@ class Cbportal < Formula
 
   desc "Clipboard Portal"
   homepage "https://github.com/mcrepeau/cbportal"
-  url "https://github.com/mcrepeau/cbportal/archive/refs/tags/v1.0.1.tar.gz"
-  sha256 "e8136acdb55bdbea753b033a65dbb886936bb1aaaac92b5202317ba3c4d50814"
+  url "https://github.com/mcrepeau/cbportal/archive/refs/tags/v1.0.2.tar.gz"
+  sha256 "b4c631913c4efa6d7348aecd1216c249218a97cd1a064e013e68b0f67af72bfc"
 
   depends_on "python@3.12"
   depends_on "rust"
